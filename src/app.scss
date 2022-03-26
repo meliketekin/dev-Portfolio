@@ -7,10 +7,22 @@
     background-color: brown;
     position: relative;
     top: 70px;
+    scroll-snap-type: y mandatory; //stays only in one page, not in the middle of the page
+    
+    &::-webkit-scrollbar {
+      width: 10px;
+      background-color: grey;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #ce93d8;
+      border-radius: 15px;
+    }
 
     > *{
       width: 100vw; //viewport width
       height : calc(100vh - 70px);
+      scroll-snap-align: start;
+     
     }
   }
 }
