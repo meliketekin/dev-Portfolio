@@ -1,0 +1,16 @@
+.app {
+  height: 100vh; //viewport height 
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px); //viewport height - topbar height
+    background-color: brown;
+    position: relative;
+    top: 70px;
+
+    > *{
+      width: 100vw; //viewport width
+      height : calc(100vh - 70px);
+    }
+  }
+}
