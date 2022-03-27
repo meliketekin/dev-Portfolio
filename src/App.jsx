@@ -1,7 +1,7 @@
 
 import './app.scss';
 import Topbar from './components/topbar/Topbar';
-import Portfolio from './components/portfolio/Portfolio';
+import Intro from './components/intro/Intro';
 import Contact from './components/contact/Contact';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="app">
      <Topbar />
      <div className="sections">
-       <Portfolio />
+       <Intro />
        <Contact />
 
      </div>
