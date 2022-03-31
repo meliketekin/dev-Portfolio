@@ -5,8 +5,6 @@
   position: fixed; //fixed position
   top: 0;
   z-index: 2; //higher than the sections
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
   .wrapper {
     padding: 8px 30px;
     display: flex;
@@ -47,18 +45,45 @@
       align-items: center;
       justify-content: space-around;
       width: 28%;
-        
-      .sectionItem {
+
+      .sectionItemResume {
         height: 70px;
-        margin-right: 20px;
+        margin-right: 25px;
         display: flex;
         align-items: center;
-        font-size: 25px;
-
-        .sectionText {
+        justify-content: space-between;
+        .resume {
+          background-color: black;
+          font-size: 20px;
           color: white;
-          
+          padding: 10px;
+          border-radius: 5px;
+          border-color: #e7641e;
+          cursor: pointer;
+          border-width: 3px;
+          padding-left: 15px;
+        padding-right: 15px;
         }
+      }
+      .sectionItemContact {
+        height: 70px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        
+        .contactLink {
+          text-decoration: none;
+          
+
+          .contact {
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        
+       }
+        }
+       
       }
     }
   }

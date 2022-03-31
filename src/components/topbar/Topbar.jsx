@@ -22,19 +22,17 @@ const Topbar = () => {
         </div>
 
         <div className="right">
-          
-            <div className="sectionItem">
-              <a href="#contact" >
-                  <span className="sectionText">Contact</span>
-              </a>
-            </div>
+          <div className="sectionItemContact">
+          <a className="contactLink" href="#contact">
+              <span className="contact">Contact</span>
+            </a>
+          </div>
 
-            <div className="sectionItem">
-              <a href="#contact" >
-              <span className="sectionText">Resume</span>
-              </a>
-            </div>
-          
+          <div className="sectionItemResume">
+            <a href="https://drive.google.com/file/d/1VgwyGknUwFaH7pSO2AGn_UIdFm2Zeg15/view?usp=sharing">
+              <input className="resume" type="button" value="RESUME" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,3 +1,10 @@
 .intro {
-    background-color: darkgray;
+    background-color: white;
+    display:flex;
+    .left {
+        flex: 0.5;
+    }
+    .right {
+        flex:0.5;
+    }
 }
