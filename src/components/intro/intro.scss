@@ -2,9 +2,58 @@
     background-color: white;
     display:flex;
     .left {
-        flex: 0.5;
+        flex: 0.4;
+        
+        .imgContainer {
+            width: 100;
+            
+            
+
+            .me {
+                width: 60%;
+            background-color: rgb(255, 177, 177);
+            border-width: 1px;
+            border-radius: 50%;
+            border-color: black;
+            margin-top: 100px;
+            margin-left: 150px;
+            
+        }
+        }
+        
     }
     .right {
-        flex:0.5;
+        
+        flex:0.6;
+       
+        .titleContainer {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            
+            .title {
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 30%;
+            margin-bottom: 50px;
+            
+            }
+
+            .gif {
+                margin-top: 30%;
+                margin-left: 10px;
+                margin-bottom: 50px;
+                
+            }
+        
+        }
+        
+         .aboutMe {
+            
+            margin-left: 2px;
+            padding-right: 150px;
+        }   
+        
+        
     }
 }
